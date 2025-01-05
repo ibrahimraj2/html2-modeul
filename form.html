@@ -20,12 +20,15 @@
                   <h2>Contact Form</h2>
                   <form action="#">
 
+                      <fieldset>
+                        <legend>
+                              Fill Up This Form
+                        </legend>
                         <label for="name">Your Name: 
                               <input id="name" type="text"
                         placeholder="your name">
                         </label>
                                                 
-
                         
                         <label for="email">Your Email: 
                               <input id="email" type="email"
@@ -36,19 +39,65 @@
                               <input id="pass" type="password"
                         placeholder="your password">
                         </label>
-
                         <label for="number">Your Number: 
                               <select name="" id="">code
-                                    <option value="Bangladesh">+880</option>
-                                    <option value="Saudi">+966</option>
+                                    <option value="Bangladesh">+880</
+                      option>
+                                    <option value="Saudi">+966</
+                      option>
                                     <option value="india">+9</option>
                               </select>
                               <input id="number" type="number"
                         placeholder="1737945684">
                         </label>
-                        
-                                                
-                                                
+                      </fieldset>
+                      
+
+                        <fieldset>
+                              <legend>Select Your Gender</legend>
+                              <label for="male">
+                                    <input type="radio" name="gender" id="male"> Male
+                              </label>
+
+                              <label for="female">
+                                    <input type="radio" name="gender" 
+                             id="female"> Female
+                              </label>
+
+                              <label for="other">
+                                    <input type="radio" name="gender" 
+                             id="other"> Other
+                              </label>
+                        </fieldset>
+
+                        <fieldset>
+                              <legend>What About Your Skill</legend>
+                              <label for="html">
+                                    <input type="checkbox" name="skill" id="html">HTML
+                              </label>
+
+                              <label for="css">
+                                    <input type="checkbox" 
+                          name="skill" id="css">CSS
+                              </label>
+
+                              <label for="java">
+                                    <input type="checkbox" 
+                          name="skill" id="java">JAVA
+                              </label>
+
+                              <label for="javasc">
+                                    <input type="checkbox" 
+                          name="skill" id="javasc">JAVA SCRIPT
+                              </label>
+                        </fieldset>
+
+                        <fieldset>
+                              <legend>Write About Your Skill Discription</legend>
+                              <textarea name="" id="" cols="65" placeholder="write......."></textarea>
+                        </fieldset>
+                  <input type="reset" value="Reset">
+                  <input type="submit" value="Submit">
                   </form>
             </section>
       </main>
